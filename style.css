@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: url("images/bg.jpg");
+  padding: 20px 0px;
+  font-size: 14px;
+}
+
+#wrapper {
+  width: 650px;
+  margin: auto;
+  background: url("images/bgcontainer.jpg");
+  background-size: contain;
+  padding: 0px 7px;
+}
+
+#wrapper #menu {
+  background: url("images/bgcontent.gif") no-repeat;
+  background-size: cover;
+  height: 50px;
+}
+
+#wrapper #menu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#wrapper #menu ul li {
+  line-height: 50px;
+  margin-right: 20px;
+}
+
+#wrapper #menu ul li:last-child {
+  margin-right: 0px;
+}
+
+#wrapper #menu ul li a {
+  text-decoration: underline;
+  color: #5d6a51;
+}
+
+#wrapper #menu ul li a:hover {
+  opacity: 0.5;
+}
+
+#wrapper #top-image {
+  margin: 10px 0px;
+  text-align: center;
+}
+
+#wrapper #content {
+  padding: 10px 25px;
+  font-family: serif;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.title::first-letter {
+  font-size: 2.4em;
+  display: block;
+  float: left;
+  margin-top: -10px;
+}
+
+.date {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 13px;
+}
+
+.paragraph p {
+  margin-bottom: 10px;
+}
+
+.paragraph img {
+  float: left;
+  margin-right: 10px;
+}
+
+#wrapper #footer {
+  background: url("images/bgfooter.gif") no-repeat bottom;
+  text-align: center;
+  height: 25px;
+}
+
+.divider {
+  background: url("images/divider.gif");
+  height: 20px;
+  margin: 20px auto;
+}
+
+blockquote {
+  background: url("images/quote.gif") no-repeat;
+  font: normal 1.4em serif;
+  color: #555;
+  padding-left: 22px;
+}
